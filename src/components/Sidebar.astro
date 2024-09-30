@@ -15,14 +15,14 @@ const navItems = [
 ];
 ---
 
-<aside class="bg-orange-800 text-white w-64 min-h-screen p-4">
+<aside class="bg-indigo-950 text-white w-64 min-h-screen p-4">
   <nav>
     <ul class="space-y-2">
       {navItems.map((item) => (
         <li>
           <a
             href={item.href}
-            class="block py-2 px-4 rounded transition-colors hover:bg-orange-700"
+            class="block py-2 px-4 rounded transition-colors hover:bg-indigo-700"
           >
             <span data-lang="es">{item.titleEs}</span>
             <span data-lang="en" class="hidden">{item.titleEn}</span>
@@ -33,7 +33,7 @@ const navItems = [
                 <li>
                   <a
                     href={subitem.href}
-                    class="block py-1 px-4 rounded text-sm transition-colors hover:bg-orange-700"
+                    class="block py-1 px-4 rounded text-sm transition-colors hover:bg-indigo-700"
                   >
                     <span data-lang="es">{subitem.titleEs}</span>
                     <span data-lang="en" class="hidden">{subitem.titleEn}</span>
