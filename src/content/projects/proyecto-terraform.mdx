@@ -1,0 +1,18 @@
+---
+title: "Sistema Contable en la Nube con Terraform y Azure"
+description: "Desarrollo de una solución para un sistema contable en la nube, utilizando Terraform y Azure. El objetivo fue implementar una infraestructura robusta y escalable que optimizara la gestión contable de una organización."
+icon: "a"
+---
+# Desarrollo de un Sistema Contable en la Nube con Terraform y Azure
+En este proyecto, desarrollé una solución para un sistema contable en la nube, utilizando Terraform y Azure. El objetivo fue implementar una infraestructura robusta y escalable que optimizara la gestión contable de una organización, permitiendo un acceso rápido y seguro a los datos desde cualquier ubicación.
+## Diagrama de Arquitectura
+Diseñé un diagrama de arquitectura que ilustra cómo se conectan los diferentes componentes de la infraestructura, así como el flujo de datos entre ellos. El sistema se compone de los siguientes elementos clave:
+-App Service Plans: Proporcionan un entorno para ejecutar las aplicaciones web, garantizando escalabilidad y rendimiento.
+-Azure SQL Database: Almacena los datos contables de forma segura y permite realizar consultas eficientes.
+-Virtual Networks (VNets) y Subnets: Aseguran la comunicación interna y la seguridad de los recursos dentro de la infraestructura.
+-Storage Accounts: Almacenan archivos y backups de forma segura, permitiendo un acceso rápido y fiable.
+El diagrama muestra cómo estos recursos interactúan, facilitando el flujo de datos desde la interfaz del usuario hasta la base de datos y viceversa.
+
+## Script de Terraform
+Desarrollé un script de Terraform para implementar la infraestructura según el diagrama de arquitectura. Este script incluye la configuración de red, así como la creación de los recursos necesarios para el sistema contable.
+El código está parametrizado, lo que permite su reutilización y adaptación a diferentes entornos.
